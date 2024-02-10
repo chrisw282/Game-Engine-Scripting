@@ -4,6 +4,10 @@ using TMPro;
 
 public class Calculator : MonoBehaviour
 { 
+    
+   //Interface of the calculator is complete on Unity, but over all is not functional but I tried my best with what I could do. The main issue was Unity not allowing me to attach the TextMeshPro 
+   //variable to the inspector because of some unknown errors that showed up when importing Calculator.cs.
+   
     public class TextMeshProUGUI textResult;
 
     private float prevInput = 0f;
